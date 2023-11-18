@@ -17,7 +17,7 @@ export default function Navbar() {
                         <div className="flex items-center">
                              <Link href="/">
                                 <h1 className="text-2xl font-medium">
-                                    LeeAnn <span className="text-teal-500">Nakazawa</span>
+                                    LeeAnn <span className="text-red-700">Nakazawa</span>
                                 </h1>
                             </Link>
                         </div>
@@ -27,7 +27,7 @@ export default function Navbar() {
                               prefetch 
                               className={`${
                                 pathname === "/" 
-                                    ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                    ? "border-red-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                     : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 }`}
                             >
@@ -36,7 +36,7 @@ export default function Navbar() {
                             <Link href="/guestbook"
                              prefetch className={`${
                                 pathname === "/guestbook" 
-                                    ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                    ? "border-red-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                     : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 }`}
                             >
@@ -45,7 +45,7 @@ export default function Navbar() {
                             <Link href="/projects"
                                 prefetch className={`${
                                 pathname === "/projects" 
-                                    ? "border-teal-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                                    ? "border-red-500 dark:text-white h-full inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                     : "border-transparent text-gray-500 dark:text-gray-300 dark:hover:text-white inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
                                 }`}
                             >
@@ -75,7 +75,7 @@ export default function Navbar() {
                         prefetch 
                         className={`${
                             pathname == "/" 
-                              ? "bg-teal-50 border-teal-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
+                              ? "bg-red-50 border-red-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
                               : "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                             }`}
                     >
@@ -85,7 +85,7 @@ export default function Navbar() {
                         prefetch 
                         className={`${
                             pathname == "/guestbook" 
-                              ? "bg-teal-50 border-teal-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
+                              ? "bg-red-50 border-red-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
                               :  "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white  block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                             }`}
                     >
@@ -95,7 +95,7 @@ export default function Navbar() {
                         prefetch 
                         className={`${
                             pathname == "/projects" 
-                              ? "bg-teal-50 border-teal-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
+                              ? "bg-red-50 border-red-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium dark:text-gray-800"
                               :  "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-white  block pl-3 pr-4 py-2 dark:hover:bg-gray-700 border-l-4 text-base font-medium dark:text-white"
                             }`}
                     >
